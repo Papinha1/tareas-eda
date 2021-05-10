@@ -1,0 +1,23 @@
+Para ordenar un arreglo podemos hacer volteos, es decir primero iteramos sobre el arreglo en donde en cada iteracion buscamos el elemento mas pequeño entre la posicion actual "i" y el fin, una vez encontrado digamos en "j", volteamos el arreglo desde la poscicion "i" hasta "j".
+
+En base a este algoritmo definió que tan costo es realizar una vueltita, para ello uso la siguiente formula de costo , por vuelta, por ejemplo si tenemos el arreglo [4,2,1,3] al aplicar el algoritmo sigue los siguientes estados:
+
+i = 0 y j = 2, entonces: [1,2,4,3], costo: 3
+i = 1 y j = 1, entonces: [1,2,4,3], costo: 4
+i = 2 y j = 3, entonces: [1,2,4,3], costo: 6
+Para facilitar las cosas los elementos a contar seran todos los números entre 1 y el largo definido de forma desordenada inicialmente, es decir si tenemos largo 4, tendremos los numero 1, 2, 3 y 4 en un orden aleatorio. Finalmente su tarea consiste en ver que tan costoso es ordenar un arreglo usando la regla descrita anteriormente.
+
+-Input Format
+
+La primera entrada consiste de un numero entero N (1 <= N <= 2 *10^6 ), que representa la cantidad de elemento, luego en la siguiente linea se tienen N enteros ni(1 <= ni <= N) separados por espacios.
+
+-Constraints
+
+El no respetar las restricciones del problema incurrirá en la anulación del puntaje en la pregunta.
+
+Su algoritmo debe implementar el algoritmo de ordenamiento descrito.
+Orden de complejidad máxima: O(N^2), toda complejidad superior sera penalizada.
+
+-Output Format
+
+La salida consta de un único numero entero que representa el coste obtenido.

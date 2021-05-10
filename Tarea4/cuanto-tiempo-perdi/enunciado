@@ -1,0 +1,21 @@
+Usted está participando en un torneo de Fórmula 1, en el cual el registro de tiempos por vueltas se hace en base a la media, es decir, si en la vuelta x tardó 2 minutos más que la media, en esa vuelta se le ingresará un 2.
+
+Gracias a la tarea de Estructura de datos no pudo concentrarse en la carrera, por lo que quiere descubrir cuánto tiempo se atrasó en el momento que pensaba sobre la tarea por lo que realiza un programa el cuál busca el tiempo máximo en vueltas consecutivas.
+
+Input Format
+
+La primera línea contiene un número N el cuál representa la cantidad de vueltas que corrió
+
+Los siguientes N números contienen un número M el cuál representa la cantidad de tiempo en base a la media que se le registró en cada vuelta
+
+0 <= N <= 2*10^6
+-2*10^{-7} <= M <= 2*10^7
+
+
+Constraints
+
+Para este problema DEBE utilizar divide y conquista, de caso contrario se le anulará el puntaje
+
+Output Format
+
+Deberá imprimir el tiempo máximo que se atrasó en vueltas consecutivas
