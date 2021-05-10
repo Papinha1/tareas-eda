@@ -1,0 +1,20 @@
+Tras una ardua jornada de busqueda laboral usted encuentra un colegio que esta buscando programadores,
+ por lo que postula y le dan el siguiente desafio para comprobar si es apto del trabajo. Este colegio 
+cuenta con una regla muy extraña para funcionar, un curso no puede tener dos alumnos con el mismo nombre.
+ Se le pide a usted que mediante un ingreso de postulantes genere un curso donde se cumpla la regla anteriormente
+ dicha y participen la mayor cantidad de alumnos. Los requisitos del programa son:
+
+Leer una entrada de texto con los nombres de los postulantes
+Asignar a todos los alumnos dentro de un curso y mostra los nombres de estos
+Mostrar la cantidad de alumnos postulantes que no hayan podido ingresar dentro del curso (imprima la cantidad por nombre)
+Input Format
+
+En la primera linea se le ingresara un entero N con la cantidad de postulantes Las lineas siguientes seran los nombres de dichos postulantes
+
+Constraints
+
+0 < N < 100
+
+Output Format
+
+Imprima una línea por cada alumno nuevo del curso Luego, imprima el nombre y la cantidad de los postulantes que no pudieron ingresar (1 línea por c/u)
