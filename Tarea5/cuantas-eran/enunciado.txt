@@ -1,0 +1,16 @@
+El otro dia estaba leyendo los enunciados de las tareas de estructura de datos y algoritmos los cuales por lo general tienen una gran cantidad de palabras. Muchas veces estos enunciados no aportan mucho para la solucion (¿Sera este el caso?), me di cuenta que algunas palabras se repetian mas de una vez en estos enunciados. Es por ello que quiero clasificarlas de tal forma que quiero obtener las K palabras mas repetidas del enunciado, en el caso que dos o mas palabras esten igual de repetidas se deberan entregar en orden alfabetico.
+
+HINT: Puede usar un mapa para poder ir contabilizando las palabras
+
+HINT2: Un buen comparador puede ayudarlo a ordenar bien
+
+Input Format
+
+En la primera linea tenemos dos numeros enteros N y K, El primero correspode a la cantidad de palabras de el enunciado. Luego K corresponde a la cantidad de palabras con mayor repeticion que quiero obtener del enunciado. Las siguientes N lineas contienen una palabra N_i.
+
+Constraints
+
+Uso obligatorio de Heaps
+
+Output Format
+La salida corresponde a K palabras separadas por espacio que corresponden a las palabras mas repetidas ordenadas por frecuencia y alfabeticamente 

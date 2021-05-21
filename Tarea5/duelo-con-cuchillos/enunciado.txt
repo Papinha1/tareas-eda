@@ -1,0 +1,21 @@
+Usted será el organizador de un famoso videojuego el cuál consiste en combatir con cuchillos hasta la muerte, el juego es bastante predecible y usted encontró un patrón el cuál siempre se repite. Gracias a esto creará un programa el cuál predice con cuánta vida quedará el ganador del torneo.
+
+Estos son los patrones de cada combate: * Si el jugador X y el jugador Y tienen la misma vida, ambos mueren * Si el jugador X tiene más vida que el jugador Y, el jugador X ganará y su vida resultante será X-Y
+
+La vida de los jugadores no se renuevan una vez terminado el combate, es decir, si un jugador queda con 3 de vida llegará al siguiente combate con 3 de vida.
+
+
+Input Format
+
+La primera línea consiste de un número N el cuál representa la cantidad de jugadores que participarán en el torneo.
+Las siguientes N líneas contienen un número M el cuál representa la vida de cada jugador del torneo
+Constraints
+
+Su problema debe resolverse utilizando PriorityQueue heap
+La complejidad máxima de su problema debe ser de  O(nlogn)
+
+El no respetar las restricciones implica la anulación de su puntaje
+
+Output Format
+
+Debe imprimir la vida con la cuál quedó el último jugador en pie, en el caso que no quede ningún jugador en combate debe imprimir un 0
